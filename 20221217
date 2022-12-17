@@ -11,3 +11,68 @@ def solution(n, arr1, arr2):
         answer.append(tmp)
     
     return answer
+    
+    # def solution(n, arr1, arr2):
+#     answer = []
+#
+#     for i in range(n):
+#         a1 = bin(arr1[i])[2:]
+#         a2 = bin(arr2[i])[2:]
+#         while len(a1) !=n:
+#             a1 = '0'+a1
+#         while len(a2) != n:
+#             a2 =  '0'+a2
+#         string = ''
+#     for j in range
+#
+#
+#         answer.append(tmp)
+#
+#     return answer
+
+
+
+#신규 아이디 추천 72410
+# def solution(new_id):
+#     answer = ''
+#     new_id = new_id.lower()
+#     for i in range(len(new_id)):
+#         if new_id[i].isalnum() or new_id[i] in ['_', '-', '.']:
+#             answer = answer + new_id[i]
+#
+#     while '..' in answer:
+#         answer = answer.replace('..', '.')
+#
+#     # if answer[0] == '.':
+#     #     answer=answer[1:]
+#     # if answer[-1] == '.':
+#     #     answer = answer[:-1]
+#     # print(answer)
+#     answer = answer.strip('.')
+#
+#     if answer == "":
+#         answer = "a"
+#     if len(answer) >= 16:
+#         answer = answer[:15]
+#         if answer[-1] == '.':
+#             answer = answer[:14]
+#     while len(answer) < 3:
+#         answer = answer + answer[-1]
+#
+#     return answer
+# solution("...!@BaT#*..y.abcdefghijklm")
+
+
+
+
+#"1223330333221"
+#푸드 파이트 대회 134240
+
+def solution(food):
+    answer=0
+    for i in range():
+        if food[1]%2==0:
+            tmp = food[i] // 2
+            answer.append(1)[2]
+    return answer
+solution([1, 3, 4, 6])
